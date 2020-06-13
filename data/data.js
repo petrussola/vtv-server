@@ -2,9 +2,9 @@ const questions = {
 	senior: [
 		{
 			id: 1,
-			pregunta: 'Xicots a la Diada de Sant Felix?',
-			respostes: ['si', 'no'],
-			correcte: 'no',
+			pregunta: 'Puig per nostre protector el cel volgué...',
+			respostes: ['destinar-vos', 'explicar-vos', 'dirigir-vos'],
+			correcte: 'destinar-vos',
 		},
 		{
 			id: 2,
@@ -20,7 +20,7 @@ const questions = {
 		},
 		{
 			id: 4,
-			pregunta: 'On estava el Discostar??',
+			pregunta: 'On estava el Discostar?',
 			respostes: ['Pl. St. Jaume', 'C/ Cort', 'La Parellada'],
 			correcte: 'La Parellada',
 		},
@@ -42,9 +42,9 @@ const questions = {
 			respostes: [
 				"La Canalla d'una colla castellera",
 				'Fans del FC. Vilafranca',
-				'Personatges de Caixa Penedes per a nens',
+				'Campanya marketing de Caixa Penedes',
 			],
-			correcte: 'Personatges de Caixa Penedes per a nens',
+			correcte: 'Campanya marketing de Caixa Penedes',
 		},
 		{
 			id: 8,
