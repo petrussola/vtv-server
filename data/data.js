@@ -9,8 +9,8 @@ const questions = {
 		{
 			id: 2,
 			pregunta: 'Com es deia el Carrer de Cal Bolet abans?',
-			respostes: ['C/ Duc de la Victoria', 'C/ Melió', 'C/ Ponent'],
-			correcte: 'C/ Duc de la Victoria',
+			respostes: ['Duc de la Victoria', 'Melió', 'Ponent'],
+			correcte: 'Duc de la Victoria',
 		},
 		{
 			id: 3,
@@ -20,14 +20,14 @@ const questions = {
 		},
 		{
 			id: 4,
-			pregunta: 'On estava el Discostar?',
+			pregunta: 'On estava el Discofilm?',
 			respostes: ['Pl. St. Jaume', 'C/ Cort', 'La Parellada'],
 			correcte: 'La Parellada',
 		},
 		{
 			id: 5,
 			pregunta: 'Com es deia el Casal Okupa de la Crta Vilanova?',
-			respostes: ['Kasal Alternatiu', 'Can Cellerot', 'Ni fu ni fa'],
+			respostes: ['Kasal Alternatiu', 'Can Cellerot', 'Okupa Vilafranca'],
 			correcte: 'Can Cellerot',
 		},
 		{
@@ -40,11 +40,11 @@ const questions = {
 			id: 7,
 			pregunta: 'Què son els Murris?',
 			respostes: [
-				"La Canalla d'una colla castellera",
+				"La Canalla dels castellera",
 				'Fans del FC. Vilafranca',
-				'Campanya marketing de Caixa Penedes',
+				'Campanya marketing Caixa Penedes',
 			],
-			correcte: 'Campanya marketing de Caixa Penedes',
+			correcte: 'Campanya marketing Caixa Penedes',
 		},
 		{
 			id: 8,
