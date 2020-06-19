@@ -7,8 +7,9 @@ const router = express.Router();
 // data
 const data = require('../../data/data');
 
-router.get('/', (req, res) => {
-	res.status(200).json({ data: data.senior });
+router.post('/', (req, res) => {
+	const { age } = req.body;
+	res.status(200).json({ data: data[age] });
 });
 
 module.exports = router;

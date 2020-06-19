@@ -1,5 +1,5 @@
 const questions = {
-	senior: [
+	'no-gent-gran': [
 		{
 			id: 1,
 			pregunta: 'Puig per nostre protector el cel volgué...',
@@ -63,6 +63,84 @@ const questions = {
 			pregunta: 'Com es deia la Pl. Penedès abans?',
 			respostes: ['Pl. Exèrcit', 'Pl. Pere III', 'Pl. Vilanova'],
 			correcte: 'Pl. Exèrcit',
+		},
+	],
+	'gent-gran': [
+		{
+			id: 1,
+			pregunta: 'On era el Casal 2000?',
+			respostes: [
+				'Muntanya de Sant Jaume',
+				'Muntanta de St. Pau',
+				'Pi de la Serreta',
+			],
+			correcte: 'Muntanya de Sant Jaume',
+		},
+		{
+			id: 2,
+			pregunta: 'On es troba Cal Catantingues?',
+			respostes: [
+				'A la Barceloneta',
+				'Al Poble Nou',
+				"Ctra. de Vilanova, costat del Molí d'en Rovira",
+			],
+			correcte: 'Ctra. de Vilanova, costat del Molí d\'en Rovira',
+		},
+		{
+			id: 3,
+			pregunta: 'Que hi havia a Cal Pepitu Jerri?',
+			respostes: ['Una botiga de menjar', 'Una fonda', 'Una carnisseria'],
+			correcte: 'Una fonda',
+		},
+		{
+			id: 4,
+			pregunta: 'Quin era el producte estrella del Bar Esteve?',
+			respostes: ['Les patates', 'La cervesa', 'Els berberetxos'],
+			correcte: 'Els berberetxos',
+		},
+		{
+			id: 5,
+			pregunta: 'Que hi ha ara a l’antic mercat de gallines i menuts?',
+			respostes: ['La Casa de la Festa Major', 'El Banc Sabadell', 'Una plaça'],
+			correcte: 'La Casa de la Festa Major',
+		},
+		{
+			id: 6,
+			pregunta: 'On s’havien fet moltes campanes de l’Institut?',
+			respostes: ['A Cal Chiquilin', 'A Can Tabola', 'Al Coro'],
+			correcte: 'A Can Tabola',
+		},
+		{
+			id: 7,
+			pregunta: 'Que era el Turó Park?',
+			respostes: ['Un restaurant', 'Una fonda', 'Una botiga'],
+			correcte: 'Un restaurant',
+		},
+		{
+			id: 8,
+			pregunta: 'Com s’anomenava popularment a l’Atlètic Vilafranca?',
+			respostes: ['El Fandangas', 'El Puñetero', 'El Chiquilín'],
+			correcte: 'El Chiquilín',
+		},
+		{
+			id: 9,
+			pregunta: 'On estava la Font de la Mandra?',
+			respostes: [
+				'Cruïlla carrer d’Amalia Soler i Carrer Germanor',
+				'Cruïlla carrer d’Amalia Soler i Carrer Tossa de Mar',
+				'Cruïlla carrer d’Amalia Soler i El Tivoli',
+			],
+			correcte: 'Cruïlla carrer d’Amalia Soler i Carrer Germanor',
+		},
+		{
+			id: 10,
+			pregunta: 'Com es deia el bar que hi havia a la cantonada de l’Era Enrajolada amb el carrer Hermenegild Clascar?',
+			respostes: [
+				'Los Gusanos',
+				'Els cargols',
+				'Los Caracoles',
+			],
+			correcte: 'Los Caracoles',
 		},
 	],
 };
