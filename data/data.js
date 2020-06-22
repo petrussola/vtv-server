@@ -40,7 +40,7 @@ const questions = {
 			id: 7,
 			pregunta: 'Què son els Murris?',
 			respostes: [
-				"La Canalla dels castellera",
+				'La Canalla dels castellera',
 				'Fans del FC. Vilafranca',
 				'Campanya marketing Caixa Penedes',
 			],
@@ -64,6 +64,38 @@ const questions = {
 			respostes: ['Pl. Exèrcit', 'Pl. Pere III', 'Pl. Vilanova'],
 			correcte: 'Pl. Exèrcit',
 		},
+		{
+			id: 11,
+			pregunta: 'Què és un Fru-Fru?',
+			respostes: ['Un bar', 'Un pastís', 'Una beguda'],
+			correcte: 'Un pastís',
+		},
+		{
+			id: 12,
+			pregunta:
+				'A quina hora, entre setmana, surt el darrer tren de Barcelona cap a Vilafranca a Pl. Catalunya?',
+			respostes: ['23.14', '23.17', '00.14'],
+			correcte: '23.14',
+		},
+		{
+			id: 13,
+			pregunta:
+				"Quina d'aquestes no és una parada del bus Vilafranca-Barcelona?",
+			respostes: ['Maria Cristina', 'Palau Reial', 'Club de Polo'],
+			correcte: 'Club de Polo',
+		},
+		{
+			id: 14,
+			pregunta: 'Què és Penyafort?',
+			respostes: ['Casa de colonies', 'Una muntanya', 'Un poble'],
+			correcte: 'Casa de colonies',
+		},
+		{
+			id: 15,
+			pregunta: 'Quin és el nom correcte, C/ St Pere o C/ St. Francesc?',
+			respostes: ['St Pere', 'St. Francesc'],
+			correcte: 'St Pere',
+		},
 	],
 	'gent-gran': [
 		{
@@ -84,7 +116,7 @@ const questions = {
 				'Al Poble Nou',
 				"Ctra. de Vilanova, costat del Molí d'en Rovira",
 			],
-			correcte: 'Ctra. de Vilanova, costat del Molí d\'en Rovira',
+			correcte: "Ctra. de Vilanova, costat del Molí d'en Rovira",
 		},
 		{
 			id: 3,
@@ -134,12 +166,9 @@ const questions = {
 		},
 		{
 			id: 10,
-			pregunta: 'Com es deia el bar que hi havia a la cantonada de l’Era Enrajolada amb el carrer Hermenegild Clascar?',
-			respostes: [
-				'Los Gusanos',
-				'Els cargols',
-				'Los Caracoles',
-			],
+			pregunta:
+				'Com es deia el bar que hi havia a la cantonada de l’Era Enrajolada amb el carrer Hermenegild Clascar?',
+			respostes: ['Los Gusanos', 'Els cargols', 'Los Caracoles'],
 			correcte: 'Los Caracoles',
 		},
 	],

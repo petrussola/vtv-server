@@ -4,12 +4,9 @@ const express = require('express');
 // router
 const router = express.Router();
 
-// data
-const data = require('../../data/data');
+// controllers
+const { fetchQuestions } = require('../controller/questions');
 
-router.post('/', (req, res) => {
-	const { age } = req.body;
-	res.status(200).json({ data: data[age] });
-});
+router.post('/', fetchQuestions);
 
 module.exports = router;
