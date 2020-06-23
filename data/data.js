@@ -96,6 +96,13 @@ const questions = {
 			respostes: ['St Pere', 'St. Francesc'],
 			correcte: 'St Pere',
 		},
+		{
+			id: 16,
+			pregunta:
+				"Lentament l'estiu ens deixa, pausada ve la tardor, ja s'apropa temps de gresca, ______ la Festa Major.",
+			respostes: ['llueix', 'arriba', "s'acosta"],
+			correcte: 'llueix',
+		},
 	],
 	'gent-gran': [
 		{
@@ -111,12 +118,8 @@ const questions = {
 		{
 			id: 2,
 			pregunta: 'On es troba Cal Catantingues?',
-			respostes: [
-				'A la Barceloneta',
-				'Al Poble Nou',
-				"Ctra. de Vilanova, costat del Molí d'en Rovira",
-			],
-			correcte: "Ctra. de Vilanova, costat del Molí d'en Rovira",
+			respostes: ['A la Barceloneta', 'Al Poble Nou', 'Ctra. de Vilanova'],
+			correcte: 'Ctra. de Vilanova',
 		},
 		{
 			id: 3,
@@ -170,6 +173,36 @@ const questions = {
 				'Com es deia el bar que hi havia a la cantonada de l’Era Enrajolada amb el carrer Hermenegild Clascar?',
 			respostes: ['Los Gusanos', 'Els cargols', 'Los Caracoles'],
 			correcte: 'Los Caracoles',
+		},
+		{
+			id: 11,
+			pregunta: 'Quina cruïlla es la dels 4 Cantons?',
+			respostes: [
+				'Ferrers, Constitució, Cort',
+				'Parellada, Industria, Font',
+				'Cort, Rambla, St. Pere',
+			],
+			correcte: 'Parellada, Industria, Font',
+		},
+		{
+			id: 12,
+			pregunta:
+				'On jugava els seus partits el Club Basquetbol Vilafranca quan es va fundar?',
+			respostes: ['A Sant Ramon', 'A St Elies', "A l'institut"],
+			correcte: 'A Sant Ramon',
+		},
+		{
+			id: 13,
+			pregunta: 'Com es deia una coneguda impremta del carrer de la Parellada?',
+			respostes: ['Pujol', 'Cuscó', 'Claret'],
+			correcte: 'Claret',
+		},
+		{
+			id: 14,
+			pregunta:
+				'Quin va ser el primer any que es van fer samarretes per la Festa Major?',
+			respostes: ['1984', '1985', '1986'],
+			correcte: '1985',
 		},
 	],
 };
