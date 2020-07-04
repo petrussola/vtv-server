@@ -21,7 +21,7 @@ const questions = {
 		{
 			id: 4,
 			pregunta: 'On estava el Discofilm?',
-			respostes: ['Pl. St. Jaume', 'C/ Cort', 'La Parellada'],
+			respostes: ['Pl. Jaume I', 'C/ Cort', 'La Parellada'],
 			correcte: 'La Parellada',
 		},
 		{
@@ -154,7 +154,7 @@ const questions = {
 		},
 		{
 			id: 25,
-			pregunta: 'Quina cançó toca l\'orgue el dia 30 en acabar els Goigs?',
+			pregunta: "Quina cançó toca l'orgue el dia 30 en acabar els Goigs?",
 			respostes: ['Moixiganga', 'Toc de castell', 'Ball de Gitanes'],
 			correcte: 'Toc de castell',
 		},
@@ -166,7 +166,8 @@ const questions = {
 		},
 		{
 			id: 27,
-			pregunta: 'Com es deien les activitats per a nens durant les vacances de Nadal?',
+			pregunta:
+				'Com es deien les activitats per a nens durant les vacances de Nadal?',
 			respostes: ['Txuli Nadal', 'Diver Nadal', 'Diver Hivern'],
 			correcte: 'Diver Hivern',
 		},
@@ -175,6 +176,12 @@ const questions = {
 			pregunta: 'Quantes sales hi havia al cinema Bogart?',
 			respostes: ['1', '2', '3'],
 			correcte: '2',
+		},
+		{
+			id: 29,
+			pregunta: 'On estava el Discostar?',
+			respostes: ['Pl. Jaume I', 'C/ Cort', 'La Parellada'],
+			correcte: 'C/ Cort',
 		},
 	],
 	'gent-gran': [
