@@ -103,6 +103,79 @@ const questions = {
 			respostes: ['llueix', 'arriba', "s'acosta"],
 			correcte: 'llueix',
 		},
+		{
+			id: 17,
+			pregunta: 'Com es diu el patge que recull les cartes dels Reis?',
+			respostes: ['Quim', 'Fèlix', 'Raimon'],
+			correcte: 'Raimon',
+		},
+		{
+			id: 18,
+			pregunta:
+				'Quin dia de la Festa Major intenten els bastoners el récord de pavanes?',
+			respostes: ['El 29', 'El 30', 'El 31'],
+			correcte: 'El 31',
+		},
+		{
+			id: 19,
+			pregunta: 'Quants administradors/es hi ha?',
+			respostes: ['4', '6', '5'],
+			correcte: '5',
+		},
+		{
+			id: 20,
+			pregunta: '______ de 8',
+			respostes: ['Torre', 'Dos'],
+			correcte: 'Torre',
+		},
+		{
+			id: 21,
+			pregunta: 'Quin mes se celebra el Vijazz Penedès',
+			respostes: ['Juny', 'Juliol', 'Agost'],
+			correcte: 'Juliol',
+		},
+		{
+			id: 22,
+			pregunta: 'Quin ball celebra la seva diada el dia de Corpus?',
+			respostes: ['Drac', 'Ball Pla', 'Gegants'],
+			correcte: 'Gegants',
+		},
+		{
+			id: 23,
+			pregunta: 'A quina hora comença la procesó de Festa Major?',
+			respostes: ['2/4 de 8', '3/4 de 8', 'A les 8'],
+			correcte: '2/4 de 8',
+		},
+		{
+			id: 24,
+			pregunta: 'A quina hora comença el pregó de la Festa Major?',
+			respostes: ['A les 9', '2/4 de 10', 'En acabar la novena'],
+			correcte: 'En acabar la novena',
+		},
+		{
+			id: 25,
+			pregunta: 'Quina cançó toca l\'orgue el dia 30 en acabar els Goigs?',
+			respostes: ['Moixiganga', 'Toc de castell', 'Ball de Gitanes'],
+			correcte: 'Toc de castell',
+		},
+		{
+			id: 26,
+			pregunta: 'Quin dia acaben els Goigs?',
+			respostes: ['El 29', 'El 30', 'El 31'],
+			correcte: 'El 30',
+		},
+		{
+			id: 27,
+			pregunta: 'Com es deien les activitats per a nens durant les vacances de Nadal?',
+			respostes: ['Txuli Nadal', 'Diver Nadal', 'Diver Hivern'],
+			correcte: 'Diver Hivern',
+		},
+		{
+			id: 28,
+			pregunta: 'Quantes sales hi havia al cinema Bogart?',
+			respostes: ['1', '2', '3'],
+			correcte: '2',
+		},
 	],
 	'gent-gran': [
 		{
@@ -203,6 +276,37 @@ const questions = {
 				'Quin va ser el primer any que es van fer samarretes per la Festa Major?',
 			respostes: ['1984', '1985', '1986'],
 			correcte: '1985',
+		},
+		{
+			id: 15,
+			pregunta: 'Quin és el ball que durant molts anys han portat els Raimons?',
+			respostes: ['La Centauro', 'La Maravella', 'La Salseta del Poble Sec'],
+			correcte: 'La Salseta del Poble Sec',
+		},
+		{
+			id: 16,
+			pregunta: 'Com es deia abans el bar musical Trànsit?',
+			respostes: ['Sublim', 'Màgic', 'Magin'],
+			correcte: 'Màgic',
+		},
+		{
+			id: 17,
+			pregunta: 'Com es deia la actual Plaça de Santa Maria?',
+			respostes: ['Joan XXIII', 'Pius XII', 'Benet XV'],
+			correcte: 'Pius XII',
+		},
+		{
+			id: 18,
+			pregunta: 'Quines Caves hi havia al c/General Prim?',
+			respostes: ['Raventos Catasús', 'Mascaró', 'Mas Tinell'],
+			correcte: 'Raventos Catasús',
+		},
+		{
+			id: 19,
+			pregunta:
+				'A quin camp de futbol va fer el primer partit, després de ser segrestat, el jugador del Barça Quini?',
+			respostes: ['Espirall', 'El de les Pistes', 'Creu de Sant Salvador'],
+			correcte: 'Creu de Sant Salvador',
 		},
 	],
 };
