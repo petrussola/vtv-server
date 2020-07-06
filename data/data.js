@@ -16,7 +16,7 @@ const questions = {
 			id: 3,
 			pregunta: "Quin dia d'agost comencen els Goigs de St. Felix?",
 			respostes: ['21', '22', '23'],
-			correcte: '21',
+			correcte: '22',
 		},
 		{
 			id: 4,
