@@ -5,8 +5,9 @@ const express = require('express');
 const router = express.Router();
 
 // controllers
-const { fetchQuestions } = require('../controller/questions');
+const { fetchQuestions, fetchNovetats } = require('../controller/questions');
 
 router.post('/', fetchQuestions);
+router.get('/novetats', fetchNovetats);
 
 module.exports = router;

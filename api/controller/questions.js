@@ -1,5 +1,6 @@
 // data
 const data = require('../../data/data');
+const novetats = require('../../data/novetats');
 
 function fetchQuestions(req, res) {
 	const { age } = req.body;
@@ -20,4 +21,8 @@ function fetchQuestions(req, res) {
 	}
 	res.status(200).json({ data: fetchedQuestions });
 }
-module.exports = { fetchQuestions };
+
+function fetchNovetats(req, res) {
+	res.status(200).json({ data: novetats });
+}
+module.exports = { fetchQuestions, fetchNovetats };
