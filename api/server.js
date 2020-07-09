@@ -12,6 +12,6 @@ server.use(cors());
 server.use(express.json());
 
 // endpoints
-server.use('/test', router);
+server.use('/', router);
 
 module.exports = server;
