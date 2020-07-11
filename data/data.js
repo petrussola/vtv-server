@@ -2,7 +2,7 @@ const questions = {
 	'no-gent-gran': [
 		{
 			id: 1,
-			pregunta: 'Puig per nostre protector el cel volgué...',
+			pregunta: 'Puix per nostre protector el cel volgué...',
 			respostes: ['destinar-vos', 'explicar-vos', 'dirigir-vos'],
 			correcte: 'destinar-vos',
 		},
@@ -182,6 +182,72 @@ const questions = {
 			pregunta: 'On estava el Discostar?',
 			respostes: ['Pl. Jaume I', 'C/ Cort', 'La Parellada'],
 			correcte: 'C/ Cort',
+		},
+		{
+			id: 30,
+			pregunta: 'Com es diu el local dels Castellers de Vilafranca?',
+			respostes: ['Cal Noi-Noi', 'Cal Figarot', 'Cal Verd'],
+			correcte: 'Cal Figarot',
+		},
+		{
+			id: 31,
+			pregunta: 'Com es diu el local dels Xicots de Vilafranca?',
+			respostes: ['Cal Vermell', 'Cal Figarot', 'Cal Noi-Noi'],
+			correcte: 'Cal Noi-Noi',
+		},
+		{
+			id: 32,
+			pregunta: 'La Serreta és coneguda per...?',
+			respostes: ['El Pi', 'La Font', 'El Castell'],
+			correcte: 'El Pi',
+		},
+		{
+			id: 33,
+			pregunta: 'La Plaça de la Vila també és coneguda com la més...?',
+			respostes: ['Falconera', 'Sol·lemne', 'Castellera'],
+			correcte: 'Castellera',
+		},
+		{
+			id: 34,
+			pregunta: 'Com es diu l\'edifici al costat de Sta. Maria?',
+			respostes: ['Palau Macià', 'Palau Baltà', 'Casa Miró'],
+			correcte: 'Palau Baltà',
+		},
+		{
+			id: 35,
+			pregunta: 'Com es diu l\'edifici al costat de l\'Ajuntament?',
+			respostes: ['Palau Macià', 'Palau Baltà', 'Casa Miró'],
+			correcte: 'Palau Macià',
+		},
+		{
+			id: 36,
+			pregunta: 'Quin rei va morir al Palau Reial?',
+			respostes: ['Jaume I', 'Alfons III', 'Pere III'],
+			correcte: 'Pere III',
+		},
+		{
+			id: 37,
+			pregunta: 'Quin dia de la Festa Major es poden veure les reliquies de Sant Fèlix?',
+			respostes: ['El 29', 'El 30', 'El 31'],
+			correcte: 'El 30',
+		},
+		{
+			id: 38,
+			pregunta: 'Quin fragment dels Goigs canta el solista?',
+			respostes: ['El tirà que s\'ofenia..', 'Puix per nostre protector..', 'A Roma on vós nasquéreu..'],
+			correcte: 'A Roma on vós nasquéreu..',
+		},
+		{
+			id: 39,
+			pregunta: '(...) perquè víctima d’amor quedés vostra fe _____.',
+			respostes: ['rendida', 'temida', 'eixida'],
+			correcte: 'rendida',
+		},
+		{
+			id: 40,
+			pregunta: 'Com es diu el programa de castells de Penedès Televisió?',
+			respostes: ['La Pinya', 'El Pom de Dalt', 'Va de Castells'],
+			correcte: 'Va de Castells',
 		},
 	],
 	'gent-gran': [
