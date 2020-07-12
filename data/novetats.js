@@ -16,6 +16,12 @@ const novetats = [
 		novetat:
 			'11 noves preguntes al nivell fàcil',
 	},
+	{
+		id: 4,
+		dia: '12/07/2020',
+		novetat:
+			'Ara et donem 3 comodins del Whatsapp, així pots demanar ajuda si no saps una resposta',
+	},
 ];
 
 module.exports = novetats;
