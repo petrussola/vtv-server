@@ -209,13 +209,13 @@ const questions = {
 		},
 		{
 			id: 34,
-			pregunta: 'Com es diu l\'edifici al costat de Sta. Maria?',
+			pregunta: "Com es diu l'edifici al costat de Sta. Maria?",
 			respostes: ['Palau Macià', 'Palau Baltà', 'Casa Miró'],
 			correcte: 'Palau Baltà',
 		},
 		{
 			id: 35,
-			pregunta: 'Com es diu l\'edifici al costat de l\'Ajuntament?',
+			pregunta: "Com es diu l'edifici al costat de l'Ajuntament?",
 			respostes: ['Palau Macià', 'Palau Baltà', 'Casa Miró'],
 			correcte: 'Palau Macià',
 		},
@@ -227,14 +227,19 @@ const questions = {
 		},
 		{
 			id: 37,
-			pregunta: 'Quin dia de la Festa Major es poden veure les reliquies de Sant Fèlix?',
+			pregunta:
+				'Quin dia de la Festa Major es poden veure les reliquies de Sant Fèlix?',
 			respostes: ['El 29', 'El 30', 'El 31'],
 			correcte: 'El 30',
 		},
 		{
 			id: 38,
 			pregunta: 'Quin fragment dels Goigs canta el solista?',
-			respostes: ['El tirà que s\'ofenia..', 'Puix per nostre protector..', 'A Roma on vós nasquéreu..'],
+			respostes: [
+				"El tirà que s'ofenia..",
+				'Puix per nostre protector..',
+				'A Roma on vós nasquéreu..',
+			],
 			correcte: 'A Roma on vós nasquéreu..',
 		},
 		{
@@ -248,6 +253,49 @@ const questions = {
 			pregunta: 'Com es diu el programa de castells de Penedès Televisió?',
 			respostes: ['La Pinya', 'El Pom de Dalt', 'Va de Castells'],
 			correcte: 'Va de Castells',
+		},
+		{
+			id: 41,
+			pregunta: 'Els "caballitos" del...',
+			respostes: ['Pep', 'Quim', 'Quique'],
+			correcte: 'Quique',
+		},
+		{
+			id: 42,
+			pregunta: "Com es deia la tenda d'esports al C/ Santa Digna?",
+			respostes: ['Intersport', 'No Límits', 'Podium'],
+			correcte: 'No Límits',
+		},
+		{
+			id: 43,
+			pregunta: 'Quin era el slogan de Caixa Penedès?',
+			respostes: ['Persones al servei de persones', 'Parlem?', 'Ser on siguis'],
+			correcte: 'Persones al servei de persones',
+		},
+		{
+			id: 44,
+			pregunta:
+				'Vila vila vila vila vila vi vi vila vila Vilafranca, ______, Radio Vilafranca',
+			respostes: ['ara més que mai', 'per sempre més', 'sí, sí, sí'],
+			correcte: 'sí, sí, sí',
+		},
+		{
+			id: 45,
+			pregunta: 'Quan se celebra la Fira del Gall?',
+			respostes: ['Octubre', 'Novembre', 'Desembre'],
+			correcte: 'Desembre',
+		},
+		{
+			id: 46,
+			pregunta: 'Com es diu el gall que balla a la Fira del Gall?',
+			respostes: ['Joanot', 'Tomassot', 'Malssot'],
+			correcte: 'Tomassot',
+		},
+		{
+			id: 47,
+			pregunta: 'Com es diu la gallina que balla a la Fira del Gall?',
+			respostes: ['Ballarica', 'Ballanera', 'Balladora'],
+			correcte: 'Ballarica',
 		},
 	],
 	'gent-gran': [
@@ -380,6 +428,69 @@ const questions = {
 				'A quin camp de futbol va fer el primer partit, després de ser segrestat, el jugador del Barça Quini?',
 			respostes: ['Espirall', 'El de les Pistes', 'Creu de Sant Salvador'],
 			correcte: 'Creu de Sant Salvador',
+		},
+		{
+			id: 20,
+			pregunta: 'Qui va escriure "Vilafranca. Senyora vila?"',
+			respostes: ['Milà i Fontanals', 'Torras i Bages', 'Manuel Trens'],
+			correcte: 'Manuel Trens',
+		},
+		{
+			id: 21,
+			pregunta: 'Quin negoci regentava el Pepito Esteva?',
+			respostes: ['Un bar', 'Una impremta', 'Una tenda de roba'],
+			correcte: 'Una impremta',
+		},
+		{
+			id: 22,
+			pregunta: 'Quin negoci regentava "el Paulino"?',
+			respostes: ['Barraca de tir', 'Xurreria', 'Restaurant'],
+			correcte: 'Barraca de tir',
+		},
+		{
+			id: 23,
+			pregunta: 'A quin carrer estava "la carota"?',
+			respostes: ['Fruita', 'Indústria', 'Escudellers'],
+			correcte: 'Escudellers',
+		},
+		{
+			id: 24,
+			pregunta:
+				'Quina botiga hi havia a la cantonada de la Parellada amb c/ de la Palma?',
+			respostes: ['Cal Gomà', 'Cal Bages', 'Cal Solà'],
+			correcte: 'Cal Bages',
+		},
+		{
+			id: 25,
+			pregunta:
+				'Quin negoci hi havia antigament on ara hi ha el local dels Xicots de Vilafranca?',
+			respostes: ['Un fuster', 'Un drapaire', 'Un forn de pa'],
+			correcte: 'Un drapaire',
+		},
+		{
+			id: 26,
+			pregunta:
+				"Com es deia l'ermita que hi havia al començament del carrer Santa Clara?",
+			respostes: ['Sant Magí', 'Sant Fèlix', 'Sant Pau'],
+			correcte: 'Sant Magí',
+		},
+		{
+			id: 27,
+			pregunta: 'La botiga del Barbadillo era...',
+			respostes: ['una carnisseria', 'una llibreria', 'un forn de pa'],
+			correcte: 'un forn de pa',
+		},
+		{
+			id: 28,
+			pregunta: 'Qui és el compatró de Vilafranca?',
+			respostes: ['Sant Robert', 'Sant Magí', 'Sant Jocund'],
+			correcte: 'Sant Jocund',
+		},
+		{
+			id: 29,
+			pregunta: 'On va néixer St Raimon de Penyafort?',
+			respostes: ['Santa Margarida i els Monjos', 'Moja', 'La Granada'],
+			correcte: 'Santa Margarida i els Monjos',
 		},
 	],
 };
