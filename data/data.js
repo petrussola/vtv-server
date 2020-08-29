@@ -297,6 +297,12 @@ const questions = {
 			respostes: ['Ballarica', 'Ballanera', 'Balladora'],
 			correcte: 'Ballarica',
 		},
+		{
+			id: 48,
+			pregunta: 'Quin es el slogan de la Festa Major 2020?',
+			respostes: ['La irrepetible', 'La de sempre', 'La fantàstica'],
+			correcte: 'La irrepetible',
+		},
 	],
 	'gent-gran': [
 		{

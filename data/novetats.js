@@ -32,7 +32,7 @@ const novetats = [
 		id: 6,
 		dia: '29/08/2020',
 		novetat:
-			'Public Service Announcement sobre l\'imbecilitat d\'alguns VTVs.',
+			'Public Service Announcement sobre l\'imbecilitat d\'alguns VTVs i noves preguntes.',
 	},
 ];
 
