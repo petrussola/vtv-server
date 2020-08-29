@@ -28,6 +28,12 @@ const novetats = [
 		novetat:
 			'6 noves preguntes nivell fàcil i 9 noves preguntes nivell difícil.',
 	},
+	{
+		id: 6,
+		dia: '29/08/2020',
+		novetat:
+			'Public Service Announcement sobre l\'imbecilitat d\'alguns VTVs.',
+	},
 ];
 
 module.exports = novetats;
